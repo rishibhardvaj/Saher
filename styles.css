@@ -1,5 +1,37 @@
 /* General Styles */
 body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://www.toptal.com/designers/subtlepatterns/patterns/pw_maze_light.png'), linear-gradient(145deg, #f9f7f3, #eef3f7);
+    color: #2d2d2d;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* Special Photo Section */
+.special-photo {
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.special-photo h2 {
+    font-size: 2em;
+    color: #5c80bc;
+}
+
+.special-photo-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: popIn 1s ease-in-out;
+}
+
+
+/* General Styles */
+body {
 
     font-family: 'Poppins', sans-serif;
     margin: 0;
